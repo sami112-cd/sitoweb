@@ -1,11 +1,9 @@
-/* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Styles */
 body {
   font-family: Arial, sans-serif;
   background: #E3F2FD;
@@ -14,7 +12,6 @@ body {
   padding-bottom: 40px;
 }
 
-/* Container */
 .container {
   width: 90%;
   max-width: 1200px;
@@ -22,7 +19,6 @@ body {
   padding: 0 20px;
 }
 
-/* Header */
 header {
   background: #1976D2;
   color: #fff;
@@ -35,7 +31,6 @@ header h1 {
   font-size: 2.5em;
 }
 
-/* Navigation */
 nav ul {
   list-style: none;
   background: #2196F3;
@@ -59,24 +54,15 @@ nav ul li a:hover {
   color: #BBDEFB;
 }
 
-/* Main Content Area */
 main {
   width: 90%;
   margin: auto;
 }
 
-/* Content Wrapper */
-.content-wrapper {
-  overflow: hidden;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-/* Text Container */
 .text-container {
   float: left;
   width: 60%;
-  margin: 50px 0 0 0; /* Sposta il testo 50px più in basso */
+  margin: 50px 0 0 0;
   border: 1px solid #90CAF9;
   padding: 20px;
   background: #fff;
@@ -93,7 +79,6 @@ main {
   text-align: justify;
 }
 
-/* Image Container */
 .image-container {
   float: left;
   width: 35%;
@@ -108,11 +93,30 @@ main {
   margin: 10px auto;
 }
 
-/* Footer */
 footer {
   background: #1976D2;
   color: #fff;
   text-align: center;
   padding: 15px 0;
   margin-top: 20px;
+}
+
+.volantino-wrapper {
+  margin: 10px auto;
+}
+
+footer a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #BBDEFB;
+  color: #0D47A1;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #90CAF9;
+  transition: background-color 0.3s ease;
+}
+
+footer a:hover {
+  background-color: #90CAF9;
 }
